@@ -1,0 +1,62 @@
+/* .login__containerButton {
+    color: #8F93A2;
+}
+
+.login__img {
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+}
+
+.login__text {
+    color: #8F93A2;
+    font-family: cursive;
+}
+
+.login__container>.MuiButton-sizeMedium {
+    color: #F36422;
+    padding-top: 10px;
+} */
+
+.login {
+    background-color: #0F111A;
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+}
+
+.login__img {
+    border-radius: 30%;
+    width: 500px;
+    height: 500px;
+    opacity: .75;
+}
+
+.login__container {
+    padding: 100px;
+    text-align: center;
+    background-color: #0A0C12;
+    box-shadow: -1px 4px 20px -6px rgba(0, 0, 0, 0.7);
+}
+
+.login__container>img {
+    object-fit: cover;
+    height: 400px;
+    margin-bottom: 40px;
+    border-radius: 30%;
+}
+
+.login__container>button {
+    margin-top: 50px;
+    text-transform: inherit !important;
+    background-color: #522D28 !important;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.login__text {
+    color: #8F93A2;
+    font-family: cursive;
+}

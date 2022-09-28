@@ -1,0 +1,86 @@
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    flex: 0.35;
+}
+
+.sidebar__header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border: 1px solid #8F93A2;
+}
+
+.sidebar__headerRight {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 10vh;
+}
+
+.MuiSvgIcon-root {
+    color: #8F93A2;
+    margin-right: 2vw;
+    font-size: 24px !important;
+    padding: 10px;
+}
+
+.sidebar__search {
+    display: flex;
+    align-items: center;
+    background-color: #161922;
+    height: 39px;
+    padding: 10px;
+    background-image: url("https://images.pexels.com/photos/956999/milky-way-starry-sky-night-sky-star-956999.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+}
+
+.slidebar__searchContainer {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 35px;
+    border-radius: 20px;
+    background-color: #090B10;
+}
+
+.sidebar__searchInput {
+    color: #EEFFFF;
+    background-color: #090B10;
+    border: none;
+    margin-left: 10px;
+    width: 80%;
+    height: 90%;
+    border-radius: 20px;
+}
+
+.sidebar__chats {
+    flex: 1;
+    /* background-color: #8F93A2; */
+    overflow: scroll;
+}
+
+.sidebar__chats::-webkit-scrollbar-track {
+    border: 1px solid #090B10;
+    padding: 2px 0;
+    background-color: #090B10;
+    color: #090B10;
+}
+
+.sidebar__chats::-webkit-scrollbar {
+    width: 10px;
+    background-color: #090B10;
+}
+
+.sidebar__chats::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #8F93A2;
+    border: 1px solid #8F93A2;
+}
+
+::-webkit-scrollbar-corner {
+    background: rgba(0, 0, 0, 0);
+}
+
+.sidebarChat__info>p {
+    color: #82AAFF;
+}

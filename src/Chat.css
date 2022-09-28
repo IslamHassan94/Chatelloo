@@ -1,0 +1,123 @@
+.chat {
+    flex: 0.65;
+    display: flex;
+    flex-direction: column;
+}
+
+.chat__header {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #8F93A2;
+}
+
+.chat__headerInfo {
+    flex: 1;
+    padding-left: 20px;
+}
+
+.chat__headerInfo>h3 {
+    margin-bottom: 3px;
+    font-weight: 500;
+}
+
+.chat__headerInfo>p {
+    color: #82AAFF;
+}
+
+.chat__headerRight {
+    display: flex;
+    justify-content: space-between;
+    min-width: 100px;
+}
+
+.chat__body {
+    flex: 1;
+    background-image: url("https://images.pexels.com/photos/956999/milky-way-starry-sky-night-sky-star-956999.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-repeat: repeat;
+    background-position: center;
+    padding: 30px;
+    overflow: scroll;
+}
+
+.chat__body::-webkit-scrollbar-track {
+    border: 1px solid #090B10;
+    padding: 2px 0;
+    background-color: #090B10;
+    background-image: url("https://images.pexels.com/photos/956999/milky-way-starry-sky-night-sky-star-956999.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    color: #090B10;
+}
+
+.chat__body::-webkit-scrollbar {
+    width: 10px;
+    background-color: #090B10;
+    font-family: cursive;
+}
+
+.chat__body::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #8F93A2;
+    border: 1px solid #8F93A2;
+}
+
+::-webkit-scrollbar-corner {
+    background: rgba(0, 0, 0, 0);
+}
+
+.chat__message {
+    position: relative;
+    font-size: 16px;
+    padding: 10px;
+    width: fit-content;
+    background-color: #80CBC4;
+    color: #090B10;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.chat__name {
+    position: absolute;
+    top: -20px;
+    font-weight: 800;
+    font-size: 12px;
+    padding-bottom: 5px;
+    color: #82AAFF;
+}
+
+.chat__timeStamp {
+    font-size: xx-small;
+    margin-left: 10px;
+}
+
+.chat__recivier {
+    margin-left: auto;
+    background-color: #E5FFB5;
+}
+
+.chat__footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 62px;
+
+}
+
+.chat__footer>form {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.chat__footer>form>input {
+    flex: 1;
+    border-radius: 30px;
+    padding: 10px;
+    border: none;
+    /* color: #EEFFFF; */
+    color: #C3E88D;
+    background-color: #261E2A;
+}
+
+.chat__footer>form>input>button {
+    display: none;
+}
